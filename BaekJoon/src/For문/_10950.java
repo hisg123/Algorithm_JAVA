@@ -13,6 +13,8 @@ public class _10950 {
 			int B = scan.nextInt();
 			System.out.println(A+B);
 		}
+		
+		scan.close();
 	}
 	
 }
