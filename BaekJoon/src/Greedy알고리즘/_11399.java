@@ -17,7 +17,6 @@ public class _11399 {
 		Arrays.sort(P);
 
 		for (int i = 0; i < N; i++) {
-//			System.out.println(P[i]);
 			if (i != 0) {
 				P[i] += P[i - 1];
 			}
