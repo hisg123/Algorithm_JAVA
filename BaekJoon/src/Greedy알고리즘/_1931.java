@@ -7,13 +7,13 @@ import java.util.Comparator;
 public class _1931 {
 	public static void main(String[] args) {
 
-		// input
+		// input //
 		Scanner scan = new Scanner(System.in);
 
 		int N = scan.nextInt();
 		int timeLine[][] = new int[N][2];
 
-		// process
+		// process //
 		// ::1. input start time, endtime
 		for (int i = 0; i < N; i++) {
 			timeLine[i][0] = scan.nextInt();
@@ -45,7 +45,7 @@ public class _1931 {
 			}
 		}
 
-		// output
+		// output //
 		System.out.println(cnt);
 
 	}
